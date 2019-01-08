@@ -4,3 +4,7 @@ git commit -m "message" <file name>  将缓存区的文件添加到本地库
 git rm --cached <file name>   将缓存区的文件删除
 git log   查看版本记录
 git rest HEAD <file>  删除缓存区的文件
+git log --pretty=oneline   每条日志显示一行
+git log --oneline   哈希值只显示一部分
+gir reflog 显示当前版本，以及显示移动指针到需要的版本
+git diff  显示修改的内容
